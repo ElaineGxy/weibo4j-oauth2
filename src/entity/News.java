@@ -42,14 +42,14 @@ public class News {
         news1.setSite("站点：新浪网");  
         news1.setPublishTime("发布时间：2014-05-12");  
           
-//        News news2 = new News();  
-//        news2.setTitle("标题：[申万销售夏敬慧] 基金仓位周报----开基仓位下降1.51%");  
-//        news2.setContent("正文：理财产品部分析师: 杨鹏（18930809297） 开基仓位有所下降：本周，开放式基金平均仓位继续下降。");  
-//        news2.setSite("站点：腾讯网");  
-//        news2.setPublishTime("发布时间：2014-05-25");  
+        News news2 = new News();  
+        news2.setTitle("标题：[申万销售夏敬慧] 基金仓位周报----开基仓位下降1.51%");  
+        news2.setContent("正文：理财产品部分析师: 杨鹏（18930809297） 开基仓位有所下降：本周，开放式基金平均仓位继续下降。");  
+        news2.setSite("站点：腾讯网");  
+        news2.setPublishTime("发布时间：2014-05-25");  
           
         newsList.add(news1);  
-        //newsList.add(news2);  
+        newsList.add(news2);  
           
         return newsList;  
     }  

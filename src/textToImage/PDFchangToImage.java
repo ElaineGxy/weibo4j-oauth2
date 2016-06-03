@@ -126,7 +126,7 @@ public class PDFchangToImage {
 		java.awt.Rectangle rect = new java.awt.Rectangle(0, 0, (int) page.getBBox().getWidth(),
 				(int) page.getBBox().getHeight());
 
-		int ratio=5;
+		int ratio=10;
 		// generate the image
 		java.awt.Image img = page.getImage(rect.width*ratio, rect.height*ratio, // width &
 				rect, // clip rect

@@ -13,5 +13,8 @@
 	<classpathentry kind="lib" path="/Users/Elaine/Project/jar/iText-5.0.5.jar"/>
 	<classpathentry kind="lib" path="/Users/Elaine/Project/jar/iTextAsian.jar"/>
 	<classpathentry kind="lib" path="/Users/Elaine/Project/jar/itext-rtf-2.1.7.jar"/>
+	<classpathentry kind="lib" path="/Users/Elaine/Project/jar/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/Users/Elaine/Project/jar/pdfbox-1.6.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Elaine/Project/jar/fontbox-1.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
