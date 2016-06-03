@@ -1,0 +1,47 @@
+0    INFO  [2016-06-02 09:55:58]  code: ebfaf93ac1c7fafdd7b86381234b7908
+4    DEBUG [2016-06-02 09:55:58]  Request:
+4    DEBUG [2016-06-02 09:55:58]  POSThttps://api.weibo.com/oauth2/access_token
+1729 DEBUG [2016-06-02 09:56:00]  Response:
+1729 DEBUG [2016-06-02 09:56:00]  https StatusCode:200
+1729 DEBUG [2016-06-02 09:56:00]  Server:nginx/1.6.1
+1730 DEBUG [2016-06-02 09:56:00]  Date:Thu, 02 Jun 2016 01:55:57 GMT
+1730 DEBUG [2016-06-02 09:56:00]  Content-Type:text/plain;charset=UTF-8
+1730 DEBUG [2016-06-02 09:56:00]  Content-Length:117
+1730 DEBUG [2016-06-02 09:56:00]  Connection:keep-alive
+1730 DEBUG [2016-06-02 09:56:00]  Pragma:No-cache
+1730 DEBUG [2016-06-02 09:56:00]  Cache-Control:no-cache
+1730 DEBUG [2016-06-02 09:56:00]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+1730 DEBUG [2016-06-02 09:56:00]  Api-Server-IP:10.73.89.48
+1733 DEBUG [2016-06-02 09:56:00]  {"access_token":"2.0082dGTCoevqVB0a12e412a2aWDRbC","remind_in":"157679999","expires_in":157679999,"uid":"2262360621"}
+
+0    DEBUG [2016-06-02 10:07:13]  Request:
+0    DEBUG [2016-06-02 10:07:13]  POSThttps://api.weibo.com/2/statuses/update.json
+542  DEBUG [2016-06-02 10:07:14]  Authorization: OAuth2 2.0082dGTCoevqVB0a12e412a2aWDRbC
+542  DEBUG [2016-06-02 10:07:14]  API-RemoteIP: 10.2.145.231
+1001 DEBUG [2016-06-02 10:07:14]  Response:
+1001 DEBUG [2016-06-02 10:07:14]  https StatusCode:200
+1002 DEBUG [2016-06-02 10:07:14]  Server:nginx/1.6.1
+1002 DEBUG [2016-06-02 10:07:14]  Date:Thu, 02 Jun 2016 02:07:11 GMT
+1002 DEBUG [2016-06-02 10:07:14]  Content-Type:application/json;charset=UTF-8
+1002 DEBUG [2016-06-02 10:07:14]  Transfer-Encoding:chunked
+1002 DEBUG [2016-06-02 10:07:14]  Connection:keep-alive
+1002 DEBUG [2016-06-02 10:07:14]  Api-Server-IP:10.75.5.94
+1002 DEBUG [2016-06-02 10:07:14]  Vary:Accept-Encoding
+1004 WARN  [2016-06-02 10:07:14]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+1004 DEBUG [2016-06-02 10:07:14]  {"created_at":"Thu Jun 02 10:07:11 +0800 2016","id":3981861531029832,"mid":"3981861531029832","idstr":"3981861531029832","text":"6月2号微博文本测试","textLength":18,"source_allowclick":0,"source_type":1,"source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2262360621,"idstr":"2262360621","class":1,"screen_name":"浑身是刺请勿靠近","name":"浑身是刺请勿靠近","province":"11","city":"8","location":"北京 海淀区","description":"","url":"","profile_image_url":"http://tva1.sinaimg.cn/crop.0.1.510.510.50/86d8e22djw8eo5pe5voeaj20e60e8t9j.jpg","profile_url":"u/2262360621","domain":"","weihao":"","gender":"f","followers_count":35,"friends_count":325,"pagefriends_count":0,"statuses_count":172,"favourites_count":59,"created_at":"Fri Jul 22 09:08:56 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tva1.sinaimg.cn/crop.0.1.510.510.180/86d8e22djw8eo5pe5voeaj20e60e8t9j.jpg","avatar_hd":"http://tva1.sinaimg.cn/crop.0.1.510.510.1024/86d8e22djw8eo5pe5voeaj20e60e8t9j.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":2,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":0,"urank":15},"reposts_count":0,"comments_count":0,"attitudes_count":0,"isLongText":false,"mlevel":0,"visible":{"type":0,"list_id":0},"biz_feature":0,"darwin_tags":[],"hot_weibo_tags":[],"text_tag_tips":[],"userType":590081}
+
+1016 INFO  [2016-06-02 10:07:14]  Status [user=User [id=2262360621, screenName=浑身是刺请勿靠近, name=浑身是刺请勿靠近, province=11, city=8, location=北京 海淀区, description=, url=, profileImageUrl=http://tva1.sinaimg.cn/crop.0.1.510.510.50/86d8e22djw8eo5pe5voeaj20e60e8t9j.jpg, userDomain=, gender=f, followersCount=35, friendsCount=325, statusesCount=172, favouritesCount=59, createdAt=Fri Jul 22 09:08:56 CST 2011, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tva1.sinaimg.cn/crop.0.1.510.510.180/86d8e22djw8eo5pe5voeaj20e60e8t9j.jpg, onlineStatus=0, status=null, biFollowersCount=2, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3981861531029832, createdAt=Thu Jun 02 10:07:11 CST 2016, id=3981861531029832, text=6月2号微博文本测试, source=Source [url=http://open.weibo.com, relationShip=nofollow, name=未通过审核应用], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=0, commentsCount=0, mid=3981861531029832, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]]
+0    DEBUG [2016-06-02 10:18:07]  Authorization: OAuth2 2.0082dGTCoevqVB0a12e412a2aWDRbC
+1    DEBUG [2016-06-02 10:18:07]  API-RemoteIP: 10.2.145.231
+463  DEBUG [2016-06-02 10:18:08]  Response:
+463  DEBUG [2016-06-02 10:18:08]  https StatusCode:200
+463  DEBUG [2016-06-02 10:18:08]  Server:nginx/1.6.1
+463  DEBUG [2016-06-02 10:18:08]  Date:Thu, 02 Jun 2016 02:18:04 GMT
+464  DEBUG [2016-06-02 10:18:08]  Content-Type:application/json;charset=UTF-8
+464  DEBUG [2016-06-02 10:18:08]  Transfer-Encoding:chunked
+464  DEBUG [2016-06-02 10:18:08]  Connection:keep-alive
+464  DEBUG [2016-06-02 10:18:08]  Api-Server-IP:10.75.5.68
+464  DEBUG [2016-06-02 10:18:08]  Vary:Accept-Encoding
+466  WARN  [2016-06-02 10:18:08]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+467  DEBUG [2016-06-02 10:18:08]  {"created_at":"Thu Jun 02 10:18:04 +0800 2016","id":3981864270523845,"mid":"3981864270523845","idstr":"3981864270523845","text":"6月2号微博图片文本测试","textLength":22,"source_allowclick":0,"source_type":1,"source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[{"thumbnail_pic":"http://ww2.sinaimg.cn/thumbnail/86d8e22djw1f4gnwmtnavj20c80c8js4.jpg"}],"thumbnail_pic":"http://ww2.sinaimg.cn/thumbnail/86d8e22djw1f4gnwmtnavj20c80c8js4.jpg","bmiddle_pic":"http://ww2.sinaimg.cn/bmiddle/86d8e22djw1f4gnwmtnavj20c80c8js4.jpg","original_pic":"http://ww2.sinaimg.cn/large/86d8e22djw1f4gnwmtnavj20c80c8js4.jpg","geo":null,"user":{"id":2262360621,"idstr":"2262360621","class":1,"screen_name":"浑身是刺请勿靠近","name":"浑身是刺请勿靠近","province":"11","city":"8","location":"北京 海淀区","description":"","url":"","profile_image_url":"http://tva1.sinaimg.cn/crop.0.1.510.510.50/86d8e22djw8eo5pe5voeaj20e60e8t9j.jpg","profile_url":"u/2262360621","domain":"","weihao":"","gender":"f","followers_count":35,"friends_count":325,"pagefriends_count":0,"statuses_count":172,"favourites_count":59,"created_at":"Fri Jul 22 09:08:56 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tva1.sinaimg.cn/crop.0.1.510.510.180/86d8e22djw8eo5pe5voeaj20e60e8t9j.jpg","avatar_hd":"http://tva1.sinaimg.cn/crop.0.1.510.510.1024/86d8e22djw8eo5pe5voeaj20e60e8t9j.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":2,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":0,"urank":15},"reposts_count":0,"comments_count":0,"attitudes_count":0,"isLongText":false,"mlevel":0,"visible":{"type":0,"list_id":0},"biz_feature":0,"darwin_tags":[],"hot_weibo_tags":[],"text_tag_tips":[],"userType":590081}
+
