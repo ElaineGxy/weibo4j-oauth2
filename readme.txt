@@ -2,4 +2,5 @@
 client_ID ：appkey                           
 client_SERCRET ：app_secret
 redirect_URI : 回调地址
-测试一下是不是这个
+
+运行时，需要将jar文件夹中的jar包导入到工程中
